@@ -4,7 +4,7 @@
   "description": "This is an app learn from lco Backend course.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Rohan Kumar",
   "license": "ISC",
