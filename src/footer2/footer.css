@@ -1,0 +1,346 @@
+.FooterContainer{
+   
+    /* margin-top: 10%; */
+    height: 90%;   
+}
+.FBox{
+    padding-top: 5%;
+    padding-left: 10%;
+    height: 80%;
+    color: white;
+    background-color: #002736f1;
+}
+.Fpro{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.FContent{
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+word-spacing:1.5px;
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 45vw;
+}
+.followBox{
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+word-spacing:1.5px;
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: none;
+    margin-top: 5%;
+}
+.privacyBox{
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+word-spacing:1.5px;
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 10%;;
+    margin-left: -10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.refund{
+    margin-left: 5%;
+}
+.CopyRightSec{
+    width: 100vw;
+    height: 5%;
+    background-color: white;
+}
+.icons{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 55px;
+    /* padding-left: 5px; */
+    gap: 2px;
+}
+.CRBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+word-spacing:1.5px;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    
+    .Fpro {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FContent {
+        line-height: 1.2;
+        font-weight: 500;
+        letter-spacing: -1.0px;
+        word-spacing: 1.5px;
+        font-weight: 400;
+        font-size: 17px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        margin-top: 5%;
+        width: 88vw;
+    }
+    .FBox {
+        
+        padding-left: 1%;
+       
+    }
+    .privacyBox {
+       font-size: 12px;
+        margin-top: 4%;
+        margin-left: 6%;
+        
+    }
+    .CRBox {
+        margin-bottom: 2%;
+        height: 11%;
+        margin-top: 2%;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .followBox{
+        margin-top: 10%;
+    }
+   
+    
+}
+
+@media only screen and (min-width:480px) and (max-width:580px){
+    
+    .Fpro {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FContent {
+        line-height: 1.2;
+        font-weight: 500;
+        letter-spacing: -1.0px;
+        word-spacing: 1.5px;
+        font-weight: 400;
+        font-size: 17px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        margin-top: 5%;
+        width: 88vw;
+    }
+    .FBox {
+        
+        padding-left: 1%;
+       
+    }
+    .privacyBox {
+        margin-top: 17%;
+        margin-left: 6%;
+    }
+    .CRBox {
+        margin-top: 6%;
+        
+        font-size: 12px;
+        text-decoration: none;
+    }
+    
+    
+}
+
+@media only screen and (min-width:580px) and (max-width:680px){
+    .Fpro {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FContent {
+        line-height: 1.2;
+        font-weight: 500;
+        letter-spacing: -1.0px;
+        word-spacing: 1.5px;
+        font-weight: 400;
+        font-size: 17px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        margin-top: 5%;
+        width: 88vw;
+    }
+    .FBox {
+        
+        padding-left: 1%;
+       
+    }
+    .privacyBox {
+        margin-top: 17%;
+        margin-left: 6%;
+    }
+    .CRBox {
+        margin-top: 6%;
+        
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .CopyRightSec {
+        margin-bottom: 2%;
+        margin-top: -3%;
+        width: 100vw;
+        height: 1%;
+        background-color: white;
+    }
+       
+}
+
+@media only screen and (min-width:680px) and (max-width:776px){
+    .Fpro {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FContent {
+        line-height: 1.2;
+        font-weight: 500;
+        letter-spacing: -1.0px;
+        word-spacing: 1.5px;
+        font-weight: 400;
+        font-size: 17px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        margin-top: 5%;
+        width: 88vw;
+    }
+    .FBox {
+        height: 50%;
+        padding-left: 1%;
+       
+    }
+    .privacyBox {
+        margin-top: 15%;
+        margin-left: 6%;
+    }
+    .CopyRightSec {
+        margin-bottom: 2%;
+        margin-top: -3%;
+        width: 100vw;
+        height: 1%;
+        background-color: white;
+    }
+    .CRBox {
+        margin-top: 6%;
+        
+        font-size: 12px;
+        text-decoration: none;
+    }
+       
+}
+
+@media only screen and (min-width:776px) and (max-width:998px){
+    .Fpro {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FContent {
+        line-height: 1.2;
+        font-weight: 500;
+        letter-spacing: -1.0px;
+        word-spacing: 1.5px;
+        font-weight: 400;
+        font-size: 17px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        margin-top: 5%;
+        width: 88vw;
+    }
+    .FBox {
+        height: 45%;
+        padding-left: 1%;
+       
+    }
+    .privacyBox {
+        margin-top: 10%;
+        margin-left: 6%;
+    }
+    .CRBox {
+        margin-top: 6%;
+        
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .CopyRightSec {
+        margin-bottom: 2%;
+        margin-top: -3%;
+        width: 100vw;
+        height: 1%;
+        background-color: white;
+    }
+  
+}
+
+@media only screen and (min-width:998x) and (max-width:1200px){
+     
+    .FContent {
+        line-height: 1.2;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        word-spacing: 1.5px;
+        font-weight: 400;
+        font-size: 20px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20%;
+        width: 45vw;
+    }
+    .CopyRightSec {
+        margin-bottom: 2%;
+        margin-top: -3%;
+        width: 100vw;
+        height: 1%;
+        background-color: white;
+    }
+    .followBox {
+        line-height: 1.2;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        word-spacing: 1.5px;
+        font-weight: 400;
+        font-size: 23px;
+        text-decoration: none;
+        margin-top: 20%;
+    }
+}

@@ -1,0 +1,600 @@
+.AboutPAge{ padding-left: 10%;
+    background-color: white;
+    height: 90%;
+    color:  #002736f1;
+}
+.AHeading{
+    
+    margin-top: 5%;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left: -10%;  
+    justify-content: center;
+align-items: center;
+    
+}
+.ATitle{
+    text-align: left;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -1px;
+    position: relative;
+    width: 100%;
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: none;
+    padding-left: 10%;
+margin-top: 5%  ;
+width: 51vw;
+}
+.AHead{
+    text-align: left;
+    font-size: 32px;
+    margin-top: 3%;
+}
+.ASufTITLE{
+    text-align: left;
+    margin-top: 3%;
+}
+.APro{
+    
+   /* margin-top: 5%; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+.PosterImg2{
+    box-shadow: 20px black;
+    border-radius: 30px;
+    margin-top: 10%;
+    width: 25vw;
+    /* height: 29vw; */
+}
+.AboutPoster{
+    width: 35vw;
+}
+.AboutDetails{
+font-size: 20px;
+color: #002736f1;
+}
+.AHeadUP{
+    
+}
+
+.AButton2{
+    position: relative;
+    margin-top: 5%;
+    border-radius: 30px;
+    font-size: 17px;
+    height: 8vh;
+    color:white;
+    width: 10vw;
+    margin-left: -70%;
+    background-color: #002736f1;
+
+}
+
+
+@media only screen and (min-width:220px) and (max-width:320px){
+    .AboutPAge{
+        padding-left: 1%;
+       
+   }
+   .AHeading{
+    line-height: 1.2;
+    /* font-weight: 500; */
+    letter-spacing:  -1px;
+
+   font-weight: 100;
+    font-size: 15px
+       
+   }
+   .AHead{
+       font-size: 20px;
+       position: relative;
+       display: flex;
+       
+       justify-content: center;
+   align-items: center;
+       
+   }
+   .ATitle {
+      
+       line-height: 1.2;
+       font-weight: 500;
+       letter-spacing:  -1px;
+   
+      font-weight: 100;
+       font-size: 14px;
+      margin-top: 3%;
+       width: 92vw;
+       
+   }
+   
+   .AHead{
+       margin-top: 2%;
+   }
+   .ASufTITLE{
+       margin-top: 2%;
+   }
+  
+  
+   .APro {
+    height: 60vh;
+       /* margin-top: -13%; */
+       /* margin-right: -2%; */
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+       position: relative;
+   }
+   .PosterImg2 {
+    padding-left: 20%;
+       padding-top: 2%;
+       width: 71vw;
+   } 
+   .AButton2{
+       margin-top: 5%;
+       margin-left: 1%;
+       font-size: 17px;
+   height: 5vh;
+       width: 40vw;
+   }
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .AboutPAge {
+        height: 700px;
+        padding-left: 1%;
+    }
+   .AHeading{
+    line-height: 1.2;
+    /* font-weight: 500; */
+    letter-spacing:  -1px;
+
+   font-weight: 100;
+    font-size: 20px
+       
+   }
+   .AHead{
+       font-size: 20px;
+       position: relative;
+       display: flex;
+       
+       justify-content: center;
+   align-items: center;
+       
+   }
+   .ATitle {
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-weight: 100;
+    font-size: 21px;
+    margin-top: 3%;
+    width: 92vw;
+}
+   
+   .AHead{
+       margin-top: 2%;
+   }
+   .ASufTITLE{
+       margin-top: 2%;
+   }
+  
+  
+   .APro {
+    height: 60vh;
+       /* margin-top: -13%; */
+       /* margin-right: -2%; */
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+       position: relative;
+   }
+   .PosterImg2 {
+    padding-left: 11%;
+    padding-top: 2%;
+    width: 86vw;
+}
+   .AButton2{
+       margin-top: 5%;
+       margin-left: 1%;
+       font-size: 17px;
+   height: 5vh;
+       width: 26vw;
+   }
+}
+@media only screen and (min-width:480px) and (max-width:580px){
+    .AboutPAge{
+        padding-left: 1%;
+       
+   }
+   .AHeading{
+    line-height: 1.2;
+    /* font-weight: 500; */
+    letter-spacing:  -1px;
+
+   font-weight: 100;
+    font-size: 26px
+       
+   }
+   .AHead{
+       font-size: 22px;
+       position: relative;
+       display: flex;
+       
+       justify-content: center;
+   align-items: center;
+       
+   }
+   .ATitle {
+      
+       line-height: 1.2;
+       font-weight: 500;
+       letter-spacing:  -1px;
+   padding-left: 0;
+      font-weight: 100;
+      font-size: 14px;
+      margin-top: 13%;
+       width: 50vw;
+       
+   }
+   
+   .AHead{
+       margin-top: 2%;
+   }
+   .ASufTITLE{
+       margin-top: 2%;
+   }
+  
+  
+   .APro {
+    height: 60vh;
+       /* margin-top: -13%; */
+       /* margin-right: -2%; */
+       display: flex;
+       flex-direction: row;
+       align-items: flex-start;
+       justify-content: flex-start;
+       position: relative;
+   }
+   .PosterImg2 {
+       padding-top: 25%;
+       width: 45vw;
+   } 
+   .AButton2{
+       margin-top: 5%;
+       margin-left: 1%;
+       font-size: 17px;
+   
+       width: 20vw;
+   }
+}
+@media only screen and (min-width:580px) and (max-width:680px){
+    .AboutPAge{
+        padding-left: 1%;
+       height: 100vh;
+   }
+   .AHeading{
+       text-decoration: none;
+       margin-top: 5%;
+       font-size: 20px;
+       font-weight: 100;
+       
+   }
+   .AHead{
+       font-size: 25px;
+       position: relative;
+       display: flex;
+       
+       justify-content: center;
+   align-items: center;
+       
+   }
+   .ATitle {
+      
+       line-height: 1.2;
+       font-weight: 500;
+       letter-spacing:  -1px;
+   
+      font-weight: 100;
+       font-size: 17px;
+      margin-top: 25%;
+       width: 55vw;
+       
+   }
+   
+   .AHead{
+       margin-top: 2%;
+   }
+   .ASufTITLE{
+       margin-top: 2%;
+   }
+  
+  
+   .APro {
+       margin-top: -13%;
+       /* margin-right: -2%; */
+       display: flex;
+       flex-direction: row;
+       align-items: flex-start;
+       justify-content: flex-start;
+       position: relative;
+   }
+   .PosterImg2 {
+       padding-top: 38%;
+       width: 42vw;
+   } 
+   .AButton2{
+       margin-top: 5%;
+       margin-left: 1%;
+       font-size: 17px;
+   
+       width: 20vw;
+   }
+
+}
+@media only screen and (min-width:680px) and (max-width:776px){
+    .AboutPAge{
+        padding-left: 3%;
+       
+   }
+   .AHeading{
+       text-decoration: none;
+       margin-top: 5%;
+       font-size: 20px;
+       font-weight: 100;
+       
+   }
+   .AHead{
+       font-size: 25px;
+       position: relative;
+       display: flex;
+       
+       justify-content: center;
+   align-items: center;
+       
+   }
+   .ATitle {
+      
+       line-height: 1.2;
+       font-weight: 500;
+       letter-spacing:  -1px;
+   
+      font-weight: 100;
+       font-size: 17px;
+      margin-top: 25%;
+       width: 58vw;
+       
+   }
+   
+   .AHead{
+       margin-top: 2%;
+   }
+   .ASufTITLE{
+       margin-top: 2%;
+   }
+  
+  
+   .APro {
+       margin-top: -13%;
+       /* margin-right: -2%; */
+       display: flex;
+       flex-direction: row;
+       align-items: flex-start;
+       justify-content: flex-start;
+       position: relative;
+   }
+   .PosterImg2 {
+       padding-top: 32%;
+       width: 38vw;
+   } 
+   .AButton2{
+       margin-top: 5%;
+       margin-left: 1%;
+       font-size: 17px;
+   
+       width: 20vw;
+   }
+
+
+}
+@media only screen and (min-width:776px) and (max-width:998px){
+   
+    .AboutPAge{
+        padding-left: 3%;
+       
+   }
+   .AHeading{
+       text-decoration: none;
+       margin-top: 5%;
+       font-size: 25px;
+       font-weight: 100;
+       
+   }
+   .AHead{
+       font-size: 28px;
+       position: relative;
+       display: flex;
+       
+       justify-content: center;
+   align-items: center;
+       
+   }
+   .ATitle {
+      
+       line-height: 1.2;
+       font-weight: 500;
+       letter-spacing: -1px;
+   
+      font-weight: 100;
+       font-size: 20px;
+      margin-top: 10%;
+       width: 58vw;
+       
+   }
+   
+   .AHead{
+       margin-top: 2%;
+   }
+   .ASufTITLE{
+       margin-top: 2%;
+   }
+  
+  
+   .APro {
+       margin-top: -5%;
+       /* margin-right: -2%; */
+       display: flex;
+       flex-direction: row;
+       align-items: flex-start;
+       justify-content: flex-start;
+       position: relative;
+   }
+   .PosterImg2 {
+       padding-top: 18%;
+       width: 35vw;
+   } 
+   .AButton2{
+       margin-top: 5%;
+       margin-left: 1%;
+       font-size: 17px;
+       
+       width: 20vw;
+   }
+
+
+}
+@media only screen and (min-width:998px) and (max-width:1110px){
+    
+    .AboutPAge{
+         padding-left: 7%;
+        
+    }
+    .AHeading{
+        text-decoration: none;
+        margin-top: 5%;
+        font-size: 25px;
+        font-weight: 100;
+        
+    }
+    .AHead{
+        font-size: 31px;
+        position: relative;
+        display: flex;
+        
+        justify-content: center;
+    align-items: center;
+        
+    }
+    .ATitle {
+       
+        line-height: 1.2;
+        font-weight: 500;
+        letter-spacing: -1px;
+    
+       font-weight: 100;
+        font-size: 22px;
+       margin-top: 10%;
+        width: 54vw;
+        
+    }
+    
+    .AHead{
+        margin-top: 2%;
+    }
+    .ASufTITLE{
+        margin-top: 2%;
+    }
+   
+   
+    .APro {
+        margin-top: -5%;
+        /* margin-right: -2%; */
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .PosterImg2 {
+        padding-top: 18%;
+        width: 30vw;
+    } 
+    .AButton2{
+        margin-top: 5%;
+        margin-left: 1%;
+        font-size: 17px;
+        
+    /* background-color: #002736f1; */
+        width: 20vw;
+    }
+
+}
+@media only screen and (min-width:1110) and (max-width:1380){
+    .AboutPAge{
+        padding-left: 7%;
+       
+   }
+   .AHeading{
+       text-decoration: none;
+       margin-top: 5%;
+       font-size: 25px;
+       font-weight: 100;
+       
+   }
+   .AHead{
+       font-size: 31px;
+       position: relative;
+       display: flex;
+       
+       justify-content: center;
+   align-items: center;
+       
+   }
+   .ATitle {
+      
+       line-height: 1.2;
+       font-weight: 500;
+       letter-spacing: -1px;
+   
+      font-weight: 100;
+       font-size: 22px;
+      margin-top: 10%;
+       width: 54vw;
+       
+   }
+   
+   .AHead{
+       margin-top: 2%;
+   }
+   .ASufTITLE{
+       margin-top: 2%;
+   }
+  
+  
+   .APro {
+       margin-top: -5%;
+       /* margin-right: -2%; */
+       display: flex;
+       flex-direction: row;
+       align-items: flex-start;
+       justify-content: flex-start;
+       position: relative;
+   }
+   .PosterImg2 {
+       padding-top: 18%;
+       width: 30vw;
+   } 
+   .AButton2{
+       margin-top: 5%;
+       margin-left: 1%;
+       font-size: 17px;
+       
+   /* background-color: #002736f1; */
+       width: 20vw;
+   }
+}

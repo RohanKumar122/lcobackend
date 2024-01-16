@@ -1,0 +1,190 @@
+.DashboardContent{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    overflow:hidden;
+    align-items: center;
+    background-color: white;
+    position:absolute;
+    top: 0;
+    left: 20%;
+}
+.DashboardTab{
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100vh;
+
+    margin-top: 5%;
+    align-items: center;
+    background-color:#F0F0F0;
+}
+.DashboardTabTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 100%;
+    font-family: "Verdana", Sans-serif !important;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #053B50;
+}
+.DashboardReistrationForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    margin: 5%;
+}
+.DashboardFormInputDiv{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-family: "Verdana", Sans-serif !important;
+    font-size: 1.2vw;
+    color: rgb(77, 45, 183);
+    margin-top: 20px;
+}
+.DashboardFormLabel{
+    display: flex;
+    height: 90%;
+    width: 30%;
+    justify-content: Start;
+    align-items: center;
+}
+.DashboardFormInput{
+    display: flex;
+    height: 80%;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255,1);
+    outline: none;
+    border: none;
+}
+.DashboardFormInput:hover{
+    border: 2px solid rgb(77, 45, 183);
+    box-shadow: 0 5px 10px rgba(77, 45, 183 , 0.8)
+}
+.DashboardFormInput:focus{
+    border: 2px solid rgb(77, 45, 183);
+    box-shadow: 0 5px 10px rgba(77, 45, 183 , 0.8)
+}
+.DashboardButtonDiv{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.DashboardButton{
+    height: 40px;
+    width: 20%;
+    font-family: "Verdana", Sans-serif !important;
+    font-size: 1.2vw;
+    background-color: rgb(77, 45, 183);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.DashboardButton:hover{
+    border: 2px solid rgb(77, 45, 183);
+    box-shadow: 0 5px 10px rgba(77, 45, 183 , 0.8)
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0.2); /* Add a text shadow */
+}
+
+.AccessDenideImg{
+    height: 70%;
+    width: 60vw;
+}
+@media only screen and (min-width: 250px) and (max-width:480px){
+    
+    .DashboardContent{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        min-height: 100vh;
+        align-items: center;
+        background-color: white;
+    }
+    .DashboardTabTitle{
+        font-size: 3vw;
+    }
+    .DashboardFormInputDiv{
+        height: 20px;
+        width: 100%;
+        font-size: 2.5vw;
+        margin-top: 15px;
+    }
+    .DashboardFormLabel{
+        width: 40%;
+    }
+    .DashboardFormInput{
+        height: 90%;
+        font-size: 2.2vw;
+    border-radius: 3px;
+    }
+    .DashboardButtonDiv{
+        height: 20px;
+        margin-top: 15px;
+    }
+    .DashboardButton{
+        height: 20px;
+        width: 30%;
+        border-radius: 3px;
+        font-size: 2.2vw;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width:776px){
+    .DashboardContent{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        min-height: 100vh;
+        align-items: center;
+        background-color: white;
+    }
+    .DashboardTabTitle{
+        font-size: 3vw;
+    }
+    .DashboardFormInputDiv{
+        height: 20px;
+        width: 100%;
+        font-size: 2.5vw;
+        margin-top: 15px;
+    }
+    .DashboardFormLabel{
+        width: 40%;
+    }
+    .DashboardFormInput{
+        height: 90%;
+        font-size: 2.2vw;
+    border-radius: 3px;
+    }
+    .DashboardButtonDiv{
+        height: 20px;
+        margin-top: 15px;
+    }
+    .DashboardButton{
+        height: 20px;
+        width: 30%;
+        border-radius: 3px;
+        font-size: 2.2vw;
+    }
+}

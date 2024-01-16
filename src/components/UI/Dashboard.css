@@ -1,0 +1,8 @@
+.DasboardBody{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: scroll;
+    width: 100%;
+    position: relative;
+}

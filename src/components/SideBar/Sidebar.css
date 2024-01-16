@@ -1,0 +1,165 @@
+.SideBar{
+    display: flex;
+    flex-direction: column;
+    height:160vh;
+    width: 20%;
+    align-items: center;
+    background-color: #EEEEEE;
+    position:sticky;
+}
+.SideBarUserInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin-top: 40%;
+}
+.SidebarImageContainer{
+    display: flex;
+    height: 7vw;
+    width: 40%;
+}
+.SidebarUserInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SidebarImage{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+}
+.SideBarData{
+    font-family: "Verdana", Sans-serif !important;
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-top: 1.5%;
+    margin-bottom: 0px;
+    color: #053B50;
+}
+.SideBarNav{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 2%;
+    align-items: center;
+}
+.SidebarNavOption{
+    display: flex;
+    height: 50px;
+    width: 95%;
+    flex-direction: row;
+    align-items: center;
+    color: #053B50;
+    border-radius: 5px;
+    justify-content: start ;
+}
+.SideNavIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    font-size: 1.5vw;
+}
+.SideNavOption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    font-family: "Verdana", Sans-serif !important;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+.SidebarNavOption:hover{
+    background-color: #053B50;
+    color: white;
+}
+#SideNavMobileOpen{
+    display: none;
+}
+#SideNavMobileClose{
+    display: none;
+}
+@media only screen and (min-width: 250px) and (max-width:480px){
+.SideBar{
+    width: 15%;
+    height: 100vh;
+    z-index: 1;
+}
+.SideBarNav{
+    margin-top: 5%;
+}
+.SideBarUserInfo{
+    display: none;
+    margin-top: 10%;
+}
+.SidebarImageContainer{
+    height: 24vw;
+    width: 30%;
+}
+.SideBarData{
+    font-size: 5vw;
+}
+.SidebarNavOption{
+    height: 40px;
+    justify-content: center;
+}
+.SideNavOption{
+    display: none;
+    width: 65%;
+    font-size: 4vw;
+    
+}
+.SideNavIcon{
+    width: 100%;
+    font-size: 5vw;
+}
+#SideNavMobileOpen{
+    display: flex;
+}
+}
+@media only screen and (min-width: 480px) and (max-width:776px){
+    .SideBar{
+        width: 15%;
+        height: 100vh;
+        z-index: 1;
+    }
+    .SideBarNav{
+        margin-top: 5%;
+    }
+    .SideBarUserInfo{
+        display: none;
+        margin-top: 10%;
+    }
+    .SidebarImageContainer{
+        height: 24vw;
+        width: 30%;
+    }
+    .SideBarData{
+        font-size: 5vw;
+    }
+    .SidebarNavOption{
+        height: 40px;
+        justify-content: center;
+    }
+    .SideNavOption{
+        display: none;
+        width: 65%;
+        font-size: 4vw;
+        
+    }
+    .SideNavIcon{
+        width: 100%;
+        font-size: 5vw;
+    }
+    #SideNavMobileOpen{
+        display: flex;
+    }
+}

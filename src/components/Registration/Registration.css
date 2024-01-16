@@ -1,0 +1,128 @@
+.RegistrationFormContainer{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.RegistrationForm{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    align-items: center;
+    border: 2px solid #053B50;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(5, 59, 80,0.8);
+    background-color:#F0F0F0;
+}
+.RegistrationTitle{
+    display: flex;
+    flex-direction: row;
+    height: 5vw;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: "Verdana", Sans-serif !important;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #053B50;
+}
+.RegistrationFormInput{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-family: "Verdana", Sans-serif !important;
+    font-size: 1.5vw;
+    color: rgb(77, 45, 183);
+    margin-top: 20px;
+}
+.RegistrationFormLabel{
+    display: flex;
+    height: 90%;
+    width: 30%;
+    justify-content: Start;
+    align-items: center;
+}
+.RegistrationFormInputData{
+    display: flex;
+    height: 90%;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255,1);
+    outline: none;
+    border: none;
+}
+.RegistrationFormInputData:hover{
+    border: 2px solid rgb(77, 45, 183);
+    box-shadow: 0 5px 10px rgba(77, 45, 183 , 0.8)
+}
+.RegistrationFormInputData:focus{
+    border: 2px solid rgb(77, 45, 183);
+    box-shadow: 0 5px 10px rgba(77, 45, 183 , 0.8)
+}
+.RegistrationButtonDiv{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.RegistrationButton{
+    height: 40px;
+    width: 30%;
+    font-family: "Verdana", Sans-serif !important;
+    font-size: 1.2vw;
+    background-color: rgb(77, 45, 183);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.RegistrationButton:hover{
+    border: 2px solid rgb(77, 45, 183);
+    box-shadow: 0 5px 10px rgba(77, 45, 183 , 0.8)
+}
+#OTP{
+    display: none;
+}
+#OTPBtn{
+    display: none;
+}
+@media only screen and (min-width: 250px) and (max-width:480px){
+    .RegistrationForm{
+        width: 70%;
+    }
+    .RegistrationTitle{
+        font-size: 3.5vw;
+    }
+    .RegistrationFormInput{
+        width: 100%;
+        height: 40px;
+    }
+    .RegistrationFormLabel{
+        font-size: 3vw;
+    }
+    .RegistrationFormInputData{
+        height: 60%;
+        font-size: 2.5vw;
+    }
+    .RegistrationButtonDiv{
+        height: 40px;
+    }
+    .RegistrationButton{
+        height: 30px;
+        width: 40%;
+        font-size: 2.2vw;
+    }
+}
